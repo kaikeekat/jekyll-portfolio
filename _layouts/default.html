@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Kait's Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+</head>
+<header class="grid grid-middle island-1-2">
+  <h1 class="unit">kaitlin moore</h1>
+  <nav role="navigation" class="mobile-nav unit">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="{{site.baseurl}}/">home</a></li>
+        <li><a href="{{site.baseurl}}/about/">about</a></li>
+        <li><a href="{{site.baseurl}}/work/">work</a></li>
+        <li><a href="{{site.baseurl}}/contact/">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav role="navigation" class="desktop-nav unit">
+    <div class="pad-r-1">
+      <ul class="mobile-nav-ul">
+        <li> <a class="btn gutter-1-2" href="{{site.baseurl}}/">home</a></li>
+        <li> <a class="btn gutter-1-2" href="{{site.baseurl}}/about/">about</a></li>
+        <li> <a class="btn gutter-1-2" href="{{site.baseurl}}/work/">work</a></li>
+        <li> <a class="btn gutter-1-2" href="{{site.baseurl}}/contact/">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<body>
+
+  {{content}}
+
+</body>
+</html>
